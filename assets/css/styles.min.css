@@ -14,6 +14,12 @@
 .bananoButton:before{
 	background-image:url(../../assets/img/banano_logo.svg)
 }
+.azeroButton:before{
+	background-image:url(../../assets/img/azero_logo.svg)
+}
+.banano-background {background-color:#4CBF4A;}
+.moon-background {background-color:#72D1FF;}
+.azero-background {background-color:#60CEAC;}
 .vertical-center{
 	min-height:100%;
 	min-height:100vh;
