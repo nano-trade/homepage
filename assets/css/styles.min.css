@@ -17,9 +17,13 @@
 .azeroButton:before{
 	background-image:url(../../assets/img/azero_logo.svg)
 }
+.usdcButton:before{
+	background-image:url(../../assets/img/usdc_logo.svg)
+}
 .banano-background {background-color:#4CBF4A;}
 .moon-background {background-color:#72D1FF;}
 .azero-background {background-color:#60CEAC;}
+.usdc-background {background-color:#2675CA;}
 .vertical-center{
 	min-height:100%;
 	min-height:100vh;
