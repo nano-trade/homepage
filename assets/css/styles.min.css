@@ -1,13 +1,18 @@
 .button-image:before{
 	content:"";
-	width:100px;
-	height:40px;
+	width:120px;
+	height:60px;
 	display:inline-block;
 	margin-right:5px;
 	vertical-align:text-top;
 	background-position:center center;
 	background-repeat:no-repeat
 }
+.btn-outline-primary:hover {
+    background-color: #1985a1;
+    color: white;
+}
+
 .moonButton:before{
 	background-image:url(../../assets/img/moon_logo.svg)
 }
