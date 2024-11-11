@@ -1,86 +1,128 @@
-.button-image:before{
-	content:"";
-	width:120px;
-	height:60px;
-	display:inline-block;
-	margin-right:5px;
-	vertical-align:text-top;
-	background-position:center center;
-	background-repeat:no-repeat
+.button-image:before {
+  content: "";
+  width: 120px;
+  height: 60px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: text-top;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .btn-outline-primary:hover {
-    background-color: #1985a1;
-    color: white;
+  background-color: #1985a1;
+  color: white;
 }
 
-.moonButton:before{
-	background-image:url(../../assets/img/moon_logo.svg)
+.moonButton:before {
+  background-image: url(../../assets/img/moon_logo.svg);
 }
-.bananoButton:before{
-	background-image:url(../../assets/img/banano_logo.svg)
+.bananoButton:before {
+  background-image: url(../../assets/img/banano_logo.svg);
 }
-.azeroButton:before{
-	background-image:url(../../assets/img/azero_logo.svg)
+.azeroButton:before {
+  background-image: url(../../assets/img/azero_logo.svg);
 }
-.usdcButton:before{
-	background-image:url(../../assets/img/usdc_logo.svg)
+.usdcButton:before {
+  background-image: url(../../assets/img/usdc_logo.svg);
 }
-.banano-background {background-color:#4CBF4A;}
-.moon-background {background-color:#72D1FF;}
-.azero-background {background-color:#60CEAC;}
-.usdc-background {background-color:#2675CA;}
-.vertical-center{
-	min-height:100%;
-	min-height:100vh;
-	display:flex;
-	align-items:center
+.banano-background {
+  background-color: #4cbf4a;
 }
-.highlight-clean{
-	color:#313437;
-	background-color:#fff;
-	padding:50px 0
+.moon-background {
+  background-color: #72d1ff;
 }
-.highlight-clean p{
-	color:#7d8285
+.azero-background {
+  background-color: #60ceac;
 }
-.highlight-clean h2{
-	font-weight:700;
-	margin-bottom:25px;
-	line-height:1.5;
-	padding-top:0;
-	margin-top:0;
-	color:inherit
+.usdc-background {
+  background-color: #2675ca;
 }
-.highlight-clean .intro{
-	font-size:16px;
-	max-width:500px;
-	margin:0 auto 25px
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
-.highlight-clean .buttons{
-	text-align:center
+.highlight-clean {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0;
 }
-.highlight-clean .buttons .btn{
-	padding:16px 32px;
-	margin:6px;
-	border:none;
-	background:#ddd;
-	box-shadow:none;
-	text-shadow:none;
-	opacity:.9;
-	text-transform:uppercase;
-	font-weight:700;
-	font-size:13px;
-	letter-spacing:.4px;
-	line-height:1;
-	outline:0
+.highlight-clean p {
+  color: #7d8285;
 }
-.highlight-clean .buttons .btn:hover{
-	opacity:1
+.highlight-clean h2 {
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
 }
-.highlight-clean .buttons .btn:active{
-	transform:translateY(1px)
+.highlight-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
 }
-.highlight-clean .buttons .btn-primary{
-	background-color:#055ada;
-	color:#fff
+.highlight-clean .buttons {
+  text-align: center;
+}
+.highlight-clean .buttons .btn {
+  padding: 16px 32px;
+  margin: 6px;
+  border: none;
+  background: #ddd;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: 0;
+}
+.highlight-clean .buttons .btn:hover {
+  opacity: 1;
+}
+.highlight-clean .buttons .btn:active {
+  transform: translateY(1px);
+}
+.highlight-clean .buttons .btn-primary {
+  background-color: #055ada;
+  color: #fff;
+}
+
+.bottom-buttons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 10;
+}
+
+.content-wrapper {
+  padding-bottom: 140px; /* Add padding to prevent overlap */
+}
+
+@media (max-width: 768px) {
+  .bottom-buttons {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .content-wrapper {
+    padding-bottom: 20px;
+  }
+
+  .bottom-buttons .btn {
+    width: 100%;
+    font-size: 14px;
+  }
 }
