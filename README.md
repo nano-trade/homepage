@@ -28,8 +28,6 @@ You can trade Nano with:
 
 - **Reddit Moons** ([Trade Nano/Moons](https://moon.nano.trade))
 
-- **Aleph Zero (AZERO)** ([Trade Nano/AZERO](https://azero.nano.trade))
-
 - **USDC** ([Trade Nano/USDC](https://usdc.nano.trade))
 
 ### Features
