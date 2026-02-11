@@ -57,6 +57,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .highlight-clean {
   color: #313437;
