@@ -108,6 +108,16 @@
   color: #fff;
 }
 
+.bottom-buttons-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 10;
+}
+
 .bottom-buttons {
   position: absolute;
   bottom: 20px;
@@ -123,6 +133,20 @@
 }
 
 @media (max-width: 768px) {
+  .bottom-buttons-left {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .bottom-buttons-left .btn {
+    width: 100%;
+    font-size: 14px;
+  }
+
   .bottom-buttons {
     position: relative;
     bottom: auto;
